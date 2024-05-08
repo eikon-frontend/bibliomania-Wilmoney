@@ -1,15 +1,76 @@
-/* 💡 Configuration des styles du sélecteur de note */
-:root {
-  --gl-star-empty: url(../img/star-empty.svg);
-  --gl-star-full: url(../img/star-full.svg);
-  --gl-star-size: 24px;
-  --gl-tooltip-border-radius: 4px;
-  --gl-tooltip-font-size: 0.875rem;
-  --gl-tooltip-font-weight: 400;
-  --gl-tooltip-line-height: 1;
-  --gl-tooltip-margin: 12px;
-  --gl-tooltip-padding: 0.5em 1em;
-  --gl-tooltip-size: 6px;
+body {
+    background-color: #FFFCF8;
+    max-width: 390px;
+    font-family: "Open Sans";
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+
 }
 
-/* 🦊 Vos styles ici */
+.retour {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 330px;
+}
+
+.la_box {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    padding-left: 12%;
+    width: 100%;
+}
+
+.quatre_star {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.resume {}
+
+.chapters {
+    flex-direction: row;
+}
+
+.bord_chap {
+    display: inline-block;
+    margin-left: 290px;
+}
+
+.chap_ten {
+    display: flex;
+}
+
+.chap_nine {
+    display: flex;
+}
+
+.chap_eight {
+    display: flex;
+}
+
+.chap_seven {
+    display: flex;
+}
+
+.chap_six {
+    display: flex;
+}
+
+.no_chap {
+    display: flex;
+}
+
+.choix_stars {
+    display: flex;
+    background-color: #ECAD8A;
+
+}
+
+.choice_star {
+    padding-left: 100px;
+    flex-direction: row;
+}

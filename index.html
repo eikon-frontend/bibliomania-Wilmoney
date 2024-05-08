@@ -1,32 +1,314 @@
 <!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bibliomania</title>
-    <link rel="stylesheet" href="scripts/star-rating.min.css" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!-- 🦊 Votre page ici -->
+<html lang="en">
 
-    <!-- 💡 Décommentez cette balise et placez-la dans votre code afin d'afficher le système de note Javascript -->
-    <!-- 
-        <select class="star-rating" aria-label="Note utilisateur">
-            <option value="">Select a rating</option>
-            <option value="5">Excellent</option>
-            <option value="4">Very Good</option>
-            <option value="3">Average</option>
-            <option value="2">Poor</option>
-            <option value="1">Terrible</option>
-        </select>
-    -->
-    <!-- 💡 Script pour gérer le rating d'un livre -->
-    <script src="scripts/star-rating.min.js"></script>
-    <script>
-      var stars = new StarRating(".star-rating", {
-        tooltip: "Choisissez votre note",
-      });
-    </script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+
+
+<body>
+    <a class="retour"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="36" viewBox="0 0 21 36" fill="none">
+            <g clip-path="url(#clip0_63_1079)">
+                <path
+                    d="M0.772059 20.4052L16.8309 36.5431C17.9632 37.681 19.0956 37.681 20.2279 36.5431C20.7426 36.0259 21 35.431 21 34.7586C21 34.0862 20.7426 33.5431 20.2279 33.1293L6.02206 18.6983L20.2279 4.26725C21.4632 3.12931 21.489 1.99139 20.3051 0.853453C19.1213 -0.284484 17.9632 -0.284484 16.8309 0.853453L0.772059 16.9914C0.257351 17.4052 0 17.9741 0 18.6983C0 19.4224 0.257351 19.9914 0.772059 20.4052Z"
+                    fill="#E2C9BC" />
+            </g>
+            <defs>
+                <clipPath id="clip0_63_1079">
+                    <rect width="21" height="36" fill="white" />
+                </clipPath>
+            </defs>
+        </svg>
+        </class>
+        </div>
+    </a>
+    <div class="frederick_image">
+        <img src="saccage_couverture 2.png" alt="livre peters">
+
+    </div>
+    <div class="titre_page">
+        <h1>Saccages</h1>
+        <h2>Frederik Peeters</h2>
+    </div>
+
+
+    <div class="la_box">
+        <div class="publish">
+            <h4>publication</h4>
+            <h3>02 mars<br>2024</h3>
+        </div>
+        <div class="quatre_star">
+            <h4>note</h4>
+            <p>4.0
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
+                    <g clip-path="url(#clip0_52_900)">
+                        <path
+                            d="M16 5.74219L10.4844 4.95117L8 0L5.51562 4.95117L0 5.74219L4 9.56543L3.04688 15L8 12.4365L12.9531 15L12 9.56543L16 5.74219Z"
+                            fill="#B27553" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_52_900">
+                            <rect width="16" height="15" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>
+            </p>
+        </div>
+        <div class="genre_de">
+            <h4>genre</h4>
+            <h3>BD<br>Thriller</h3>
+        </div>
+    </div>
+
+    <div class="resume">
+        <h4>Résumé</h4>
+    </div>
+    <div>
+        <p>Frederik Peeters est un animal insaisissable, et comme le prouve son parcours, jamais où on pourrait
+            l’attendre;
+            Saccage, son nouveau livre, le démontre une fois encore. Saccage, voilà un ouvrage qui défie toute forme
+            de
+            définition, de classification: entre livre d’images et bande dessinée, Saccage dépeint une épopée pleine
+            de
+            tourments, celle d’un homme (prophète? héraut de l’apocalypse?) ...</p>
+        <h4>voir plus...</h4>
+    </div>
+    <div>
+        <h2>Ajouter à la collection</h2>
+    </div>
+    <div>
+        <h3>à lire</h3>
+        <h3>Lu</h3>
+    </div>
+    <div>
+        <h2>Commencer la lecture</h2>
+    </div>
+    <div class="chapters">
+        <div class="chap_ten">
+            <h3>Chap.10</h3>
+            <div class="bord_chap"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="23" viewBox="0 0 13 23"
+                    fill="none">
+                    <g clip-path="url(#clip0_52_877)">
+                        <path
+                            d="M0.603485 21.166C-0.184398 21.893 -0.200813 22.62 0.554243 23.347C1.3093 24.074 2.04793 24.074 2.77015 23.347L13.0126 13.0366C13.3409 12.7723 13.505 12.4088 13.505 11.9461C13.505 11.4835 13.3409 11.12 13.0126 10.8556L2.77015 0.545262C2.04793 -0.181754 1.3093 -0.181754 0.554243 0.545262C-0.200813 1.27228 -0.184398 1.99928 0.603485 2.7263L9.66409 11.9461L0.603485 21.166Z"
+                            fill="#9B5A46" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_52_877">
+                            <rect width="13" height="23" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>
+            </div>
+        </div>
+        <div class="chap_nine">
+            <h3>Chap.9</h3>
+            <div class="bord_chap"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="23" viewBox="0 0 13 23"
+                    fill="none">
+                    <g clip-path="url(#clip0_52_877)">
+                        <path
+                            d="M0.603485 21.166C-0.184398 21.893 -0.200813 22.62 0.554243 23.347C1.3093 24.074 2.04793 24.074 2.77015 23.347L13.0126 13.0366C13.3409 12.7723 13.505 12.4088 13.505 11.9461C13.505 11.4835 13.3409 11.12 13.0126 10.8556L2.77015 0.545262C2.04793 -0.181754 1.3093 -0.181754 0.554243 0.545262C-0.200813 1.27228 -0.184398 1.99928 0.603485 2.7263L9.66409 11.9461L0.603485 21.166Z"
+                            fill="#9B5A46" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_52_877">
+                            <rect width="13" height="23" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>
+            </div>
+        </div>
+        <div class="chap_eight">
+            <h3>Chap.8</h3>
+            <div class="bord_chap"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="23" viewBox="0 0 13 23"
+                    fill="none">
+                    <g clip-path="url(#clip0_52_877)">
+                        <path
+                            d="M0.603485 21.166C-0.184398 21.893 -0.200813 22.62 0.554243 23.347C1.3093 24.074 2.04793 24.074 2.77015 23.347L13.0126 13.0366C13.3409 12.7723 13.505 12.4088 13.505 11.9461C13.505 11.4835 13.3409 11.12 13.0126 10.8556L2.77015 0.545262C2.04793 -0.181754 1.3093 -0.181754 0.554243 0.545262C-0.200813 1.27228 -0.184398 1.99928 0.603485 2.7263L9.66409 11.9461L0.603485 21.166Z"
+                            fill="#9B5A46" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_52_877">
+                            <rect width="13" height="23" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>
+            </div>
+        </div>
+        <div class="chap_seven">
+            <h3>Chap.7</h3>
+            <div class="bord_chap"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="23" viewBox="0 0 13 23"
+                    fill="none">
+                    <g clip-path="url(#clip0_52_877)">
+                        <path
+                            d="M0.603485 21.166C-0.184398 21.893 -0.200813 22.62 0.554243 23.347C1.3093 24.074 2.04793 24.074 2.77015 23.347L13.0126 13.0366C13.3409 12.7723 13.505 12.4088 13.505 11.9461C13.505 11.4835 13.3409 11.12 13.0126 10.8556L2.77015 0.545262C2.04793 -0.181754 1.3093 -0.181754 0.554243 0.545262C-0.200813 1.27228 -0.184398 1.99928 0.603485 2.7263L9.66409 11.9461L0.603485 21.166Z"
+                            fill="#9B5A46" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_52_877">
+                            <rect width="13" height="23" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>
+            </div>
+        </div>
+        <div class="chap_six">
+            <h3>Chap.6</h3>
+            <div class="bord_chap"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="23" viewBox="0 0 13 23"
+                    fill="none">
+                    <g clip-path="url(#clip0_52_877)">
+                        <path
+                            d="M0.603485 21.166C-0.184398 21.893 -0.200813 22.62 0.554243 23.347C1.3093 24.074 2.04793 24.074 2.77015 23.347L13.0126 13.0366C13.3409 12.7723 13.505 12.4088 13.505 11.9461C13.505 11.4835 13.3409 11.12 13.0126 10.8556L2.77015 0.545262C2.04793 -0.181754 1.3093 -0.181754 0.554243 0.545262C-0.200813 1.27228 -0.184398 1.99928 0.603485 2.7263L9.66409 11.9461L0.603485 21.166Z"
+                            fill="#9B5A46" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_52_877">
+                            <rect width="13" height="23" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>
+            </div>
+        </div>
+        <div class="no_chap">
+            <h3>...</h3>
+        </div>
+        </g>
+        <defs>
+            <clipPath id="clip0_52_877">
+                <rect width="13" height="23" fill="white" />
+            </clipPath>
+        </defs>
+        </svg>
+    </div>
+    </div>
+    <div>
+        <div class="choix_stars">
+            <h2>MON AVIS</h2>
+            <div class="choice_star"></div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                <g clip-path="url(#clip0_52_981)">
+                    <path
+                        d="M34 13.0156L22.2793 11.2227L17 0L11.7207 11.2227L0 13.0156L8.5 21.6816L6.47461 34L17 28.1895L27.5254 34L25.5 21.6816L34 13.0156Z"
+                        fill="#A91019" />
+                </g>
+                <defs>
+                    <clipPath id="clip0_52_981">
+                        <rect width="34" height="34" fill="white" />
+                    </clipPath>
+                </defs>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                <g clip-path="url(#clip0_52_981)">
+                    <path
+                        d="M34 13.0156L22.2793 11.2227L17 0L11.7207 11.2227L0 13.0156L8.5 21.6816L6.47461 34L17 28.1895L27.5254 34L25.5 21.6816L34 13.0156Z"
+                        fill="#A91019" />
+                </g>
+                <defs>
+                    <clipPath id="clip0_52_981">
+                        <rect width="34" height="34" fill="white" />
+                    </clipPath>
+                </defs>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                <g clip-path="url(#clip0_52_981)">
+                    <path
+                        d="M34 13.0156L22.2793 11.2227L17 0L11.7207 11.2227L0 13.0156L8.5 21.6816L6.47461 34L17 28.1895L27.5254 34L25.5 21.6816L34 13.0156Z"
+                        fill="#A91019" />
+                </g>
+                <defs>
+                    <clipPath id="clip0_52_981">
+                        <rect width="34" height="34" fill="white" />
+                    </clipPath>
+                </defs>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                <g clip-path="url(#clip0_52_987)">
+                    <path
+                        d="M34 13.0156L22.2793 11.2227L17 0L11.7207 11.2227L0 13.0156L8.5 21.6816L6.47461 34L17 28.1895L27.5254 34L25.5 21.6816L34 13.0156Z"
+                        fill="#FFE8D3" />
+                </g>
+                <defs>
+                    <clipPath id="clip0_52_987">
+                        <rect width="34" height="34" fill="white" />
+                    </clipPath>
+                </defs>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                <g clip-path="url(#clip0_52_987)">
+                    <path
+                        d="M34 13.0156L22.2793 11.2227L17 0L11.7207 11.2227L0 13.0156L8.5 21.6816L6.47461 34L17 28.1895L27.5254 34L25.5 21.6816L34 13.0156Z"
+                        fill="#FFE8D3" />
+                </g>
+                <defs>
+                    <clipPath id="clip0_52_987">
+                        <rect width="34" height="34" fill="white" />
+                    </clipPath>
+                </defs>
+            </svg>
+        </div>
+    </div>
+    </div>
+    <div>
+        <h4>Commentaires</h4>
+        <h2>Partagez votre avis !</h2>
+        <img src="photo de profil Dragon.png" alt="Dragon">
+        <img src="a_cat_with_a_book.png" alt="chat">
+        <h4>a_cat_with_a_book</h4>
+        <h4>Très beau mais on se perd un peu. Très bel ouvrage en tout cas</h4>
+        <img src="lectrice_du_matin.png" alt="morning">
+        <h3>voir plus...</h3>
+    </div>
+    <div>
+        <h1>Du même auteur</h1>
+    </div>
+    <div><img src="Saint-Elme-T05 1.png" alt="saint5">
+        <h3>Saint-Elme 5</h3>
+        <h3>S. Lehman & Frederi...</h3>
+        <img src="Saint-Elme-T04 1.png" alt="saint4">
+        <h3>Saint-Elme 4</h3>
+        <h3>S. Lehman & Frederi...</h3>
+        <img src="Aama-I-a-IV 1.png" alt="aama 1">
+        <h3>Aâma, l’intégral</h3>
+        <h3>Frederik Peeters</h3>
+        <img src="Lupus-T-1 1.png" alt="Frederik 1">
+        <h3>Lupus 1</h3>
+        <h3>Frederik Peeters</h3>
+        <img src="Constellation 1.png" alt="Frederik C">
+        <h3>Constellation</h3>
+        <h3>Frederik Peeters</h3>
+        <img src="Ruminations 1.png" alt="Frederik R1">
+        <h3>Ruminations</h3>
+        <h3>Frederik Peeters</h3>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" width="41" height="42" viewBox="0 0 41 42" fill="none">
+        <path
+            d="M40.4719 21.4762L22.0363 0.634524C21.6522 0.211505 21.1401 0 20.5 0C19.8599 0 19.3478 0.211505 18.9637 0.634524L0.528103 21.4762C0.368071 21.6714 0.240047 21.8829 0.144028 22.1107C0.0480094 22.3385 0 22.5988 0 22.8917C0 23.0218 0.0160036 23.1601 0.0480094 23.3065C0.0800151 23.453 0.128024 23.5913 0.192037 23.7214C0.352069 24.1119 0.600116 24.4129 0.936183 24.6244C1.27225 24.8359 1.64832 24.9417 2.0644 24.9417H6.1452V39.5357C6.1452 40.1214 6.34524 40.6177 6.74532 41.0244C7.1454 41.4312 7.63349 41.6345 8.2096 41.6345H14.3548C14.9309 41.6345 15.419 41.4312 15.8191 41.0244C16.2192 40.6177 16.4192 40.1214 16.4192 39.5357V31.1893H24.5808V39.5357C24.5808 40.1214 24.7808 40.6177 25.1809 41.0244C25.581 41.4312 26.0691 41.6345 26.6452 41.6345H32.7904C33.3665 41.6345 33.8546 41.4312 34.2547 41.0244C34.6548 40.6177 34.8548 40.1214 34.8548 39.5357V24.9417H38.9356C39.5117 24.9417 39.9998 24.7383 40.3999 24.3315C40.8 23.9248 41 23.4448 41 22.8917C41 22.5988 40.952 22.3385 40.856 22.1107C40.76 21.8829 40.6319 21.6714 40.4719 21.4762Z"
+            fill="#FFFCF8" />
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41" fill="none">
+        <path
+            d="M36.6179 32.1855C36.1142 31.7154 35.619 31.2369 35.1321 30.75C34.6452 30.2631 34.1667 29.7678 33.6966 29.2641L33.6462 29.2138C33.2432 28.8108 32.9326 28.475 32.7144 28.2064C32.4961 27.9378 32.387 27.8034 32.387 27.8034L26.3428 24.9324C27.518 23.6228 28.4414 22.1286 29.113 20.4496C29.7846 18.7707 30.1204 16.9742 30.1204 15.0602C30.1204 12.9783 29.7174 11.0307 28.9115 9.21744C28.1392 7.37059 27.0731 5.76721 25.7131 4.40725C24.3532 3.04729 22.7498 1.98117 20.9029 1.20885C19.0897 0.402944 17.1421 0 15.0602 0C12.9783 0 11.0307 0.402944 9.21744 1.20885C7.37059 1.98117 5.76721 3.04729 4.40725 4.40725C3.04729 5.76721 1.98117 7.37059 1.20885 9.21744C0.402945 11.0307 0 12.9783 0 15.0602C0 17.1421 0.402945 19.0897 1.20885 20.9029C1.98117 22.7498 3.04729 24.3532 4.40725 25.7131C5.76721 27.0731 7.37059 28.1392 9.21744 28.9115C11.0307 29.7174 12.9783 30.1204 15.0602 30.1204C16.9406 30.1204 18.7287 29.7846 20.4244 29.113C22.1202 28.4414 23.6228 27.518 24.9324 26.3428L27.8034 32.387C27.8034 32.387 27.9378 32.4961 28.2064 32.7144C28.475 32.9326 28.8108 33.2432 29.2138 33.6462C29.6503 34.0491 30.1288 34.5025 30.6493 35.0061C31.1697 35.5098 31.6818 36.0471 32.1855 36.6179L35.1069 39.5897L36.4165 41L41 36.4165L39.5897 35.1069C39.1867 34.7039 38.725 34.2506 38.2045 33.7469C37.6841 33.2432 37.1552 32.7228 36.6179 32.1855ZM15.0602 25.7887C13.5827 25.7887 12.1892 25.5201 10.8796 24.9828C9.57002 24.412 8.42834 23.6396 7.45455 22.6658C6.48075 21.6921 5.70844 20.5504 5.13759 19.2408C4.60033 17.9312 4.3317 16.5377 4.3317 15.0602C4.3317 13.5827 4.60033 12.1892 5.13759 10.8796C5.70844 9.57002 6.48075 8.42834 7.45455 7.45455C8.42834 6.48075 9.57002 5.70844 10.8796 5.13759C12.1892 4.60033 13.5827 4.3317 15.0602 4.3317C16.5377 4.3317 17.9312 4.60033 19.2408 5.13759C20.5504 5.70844 21.6921 6.48075 22.6658 7.45455C23.6396 8.42834 24.412 9.57002 24.9828 10.8796C25.5201 12.1892 25.7887 13.5827 25.7887 15.0602C25.7887 16.5377 25.5201 17.9312 24.9828 19.2408C24.412 20.5504 23.6396 21.6921 22.6658 22.6658C21.6921 23.6396 20.5504 24.412 19.2408 24.9828C17.9312 25.5201 16.5377 25.7887 15.0602 25.7887Z"
+            fill="#FFFCF8" />
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="41" viewBox="0 0 30 41" fill="none">
+        <path
+            d="M4.28571 0H17.1429V15.375L21.4286 10.25L25.7143 15.375V0H27.8571C28.4571 0 28.9643 0.247705 29.3786 0.743125C29.7929 1.23854 30 1.845 30 2.5625V30.75H6.42857C5.82857 30.75 5.32143 30.9977 4.90714 31.4931C4.49285 31.9885 4.28571 32.595 4.28571 33.3125C4.28571 34.03 4.49285 34.6365 4.90714 35.1319C5.32143 35.6273 5.82857 35.875 6.42857 35.875H30V41H6.42857C4.65713 41 3.14286 40.2483 1.88571 38.745C0.628565 37.2417 0 35.4308 0 33.3125V5.125L0.128571 4.15125C0.300001 3.16041 0.692854 2.29771 1.30714 1.56313C1.92143 0.828538 2.64285 0.358751 3.47143 0.15375L4.28571 0Z"
+            fill="#FFFCF8" />
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41" fill="none">
+        <path
+            d="M20.5 0C17.6834 0 15.0269 0.536728 12.5304 1.6102C10.0339 2.68367 7.85754 4.14966 6.00117 6.00821C4.1448 7.86675 2.68053 10.0377 1.60831 12.5211C0.5361 15.0045 0 17.6561 0 20.476C0 23.3279 0.5361 25.9955 1.60831 28.4789C2.68053 30.9623 4.1448 33.1332 6.00117 34.9918C7.85754 36.8503 10.0339 38.3163 12.5304 39.3898C15.0269 40.4633 17.6834 41 20.5 41C23.3166 41 25.9731 40.4633 28.4696 39.3898C30.9661 38.3163 33.1425 36.8503 34.9988 34.9918C36.8552 33.1332 38.3195 30.9623 39.3917 28.4789C40.4639 25.9955 41 23.3279 41 20.476C41 17.6561 40.4639 15.0045 39.3917 12.5211C38.3195 10.0377 36.8552 7.86675 34.9988 6.00821C33.1425 4.14966 30.9661 2.68367 28.4696 1.6102C25.9731 0.536728 23.3166 0 20.5 0ZM32.8384 31.2907C31.4941 29.272 29.7498 27.6538 27.6054 26.4361C25.461 25.2184 23.0925 24.6096 20.5 24.6096C17.9075 24.6096 15.539 25.2184 13.3946 26.4361C11.2502 27.6538 9.52186 29.272 8.2096 31.2907C6.92935 29.8488 5.92916 28.2065 5.20902 26.364C4.48887 24.5215 4.12881 22.5588 4.12881 20.476C4.12881 18.2329 4.55288 16.11 5.40105 14.1073C6.24922 12.1045 7.41744 10.3662 8.90574 8.89215C10.394 7.41812 12.1304 6.24854 14.1148 5.38335C16.0991 4.51817 18.2275 4.08558 20.5 4.08558C22.7725 4.08558 24.9009 4.51817 26.8852 5.38335C28.8696 6.24854 30.606 7.41812 32.0943 8.89215C33.5826 10.3662 34.7508 12.1045 35.5989 14.1073C36.4471 16.11 36.8712 18.2329 36.8712 20.476C36.8712 22.5588 36.5111 24.5215 35.791 26.364C35.0708 28.2065 34.0867 29.8488 32.8384 31.2907ZM26.5972 16.3904C26.5972 18.0887 25.9971 19.5387 24.7968 20.7403C23.5966 21.942 22.1483 22.5428 20.452 22.5428C18.7557 22.5428 17.3074 21.942 16.1071 20.7403C14.9069 19.5387 14.3068 18.0887 14.3068 16.3904C14.3068 14.6921 14.9069 13.2421 16.1071 12.0404C17.3074 10.8388 18.7557 10.238 20.452 10.238C22.1483 10.238 23.5966 10.8388 24.7968 12.0404C25.9971 13.2421 26.5972 14.6921 26.5972 16.3904Z"
+            fill="#FFFCF8" />
+    </svg>
+</body>
+
 </html>
